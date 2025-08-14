@@ -4,7 +4,7 @@ build:
 
 .PHONY: serve
 serve:
-	python -m http.server 8001 -d dist
+	jupyter lite serve
 
 .PHONY: clean
 clean:
