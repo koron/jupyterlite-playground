@@ -1,6 +1,9 @@
 {
   "LiteBuildConfig": {
     "contents": [ "content" ],
-    "output_dir": "dist"
+    "output_dir": "dist",
+    "federated_extensions": [
+      "extensions/jupyterlab_filesystem_access-0.6.0+opfs-py3-none-any.whl"
+    ]
   }
 }
